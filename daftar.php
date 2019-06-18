@@ -1,3 +1,9 @@
+<?php 
+
+$login = isset($_SESSION['login']) ? true : false;
+if ($login) header("location: http://localhost/PMB/index.php?page=pendaftar");
+
+?>
 <div class="col-12 mt-5 d-flex justify-content-center">
     <div class="card mb-3" style="width: 90%;">
         <div class="row no-gutters">
@@ -45,8 +51,16 @@
                             <div class="col-4 overflow-hidden">
                                 <label>Pas photo</label>
                                 <input type="file" name="pp">
-                                
                             </div>
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="Email" class="form-control" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="Password" class="form-control" name="password">
                         </div>
                         <button type="submit" class="btn btn-primary mt-3">Daftar</button>
                     </form>

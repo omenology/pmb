@@ -79,9 +79,9 @@ $page = isset($_GET['page']) ? $_GET['page'] : false;
 					</div>
 					<hr class="my-4">
 					<?php if ($login): ?>
-					<p class="mt-4 text-info font-weight-lighter">Selamat Datang Admin, <a href="http://localhost/PMB/App/proses/logout_proses.php" class="">Logout disini</a</p>
+					<p class="mt-4 text-info font-weight-lighter">Selamat Datang Admin, <a href="App/proses/logout_proses.php" class="">Logout disini</a</p>
 					<?php else : ?>
-					<p class="mt-4 text-info font-weight-lighter">*Jika anda merupakan admini, <a href="index.php?page=login" class="">Login disini</a></p>
+					<p class="mt-4 text-info font-weight-lighter">*Jika anda sudah mendaftar, <a href="index.php?page=login" class="">Login disini</a></p>
 					<?php endif; ?>
 				</div>
 			</div>

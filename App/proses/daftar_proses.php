@@ -5,11 +5,13 @@ $nama = $_POST['nama'];
 $tgl = $_POST['tgl-lahir'];
 $alamat = $_POST['alamat'];
 $jurusan = $_POST['jurusan'];
+$email = $_POST['email'];
+$password = $_POST['password'];
 
 $file = uploaded();
 
 	if($file){
-		mysqli_query($koneksi,"INSERT INTO pendaftar (nama, tgl_lahir, alamat, jurusan) VALUES ('$nama','$tgl','$alamat','$jurusan')");
+		mysqli_query($koneksi,"INSERT INTO pendaftar (nama, tgl_lahir, alamat, jurusan, email, password) VALUES ('$nama','$tgl','$alamat','$jurusan','$email','$password')");
 
 		$query = mysqli_query($koneksi,"SELECT * FROM pendaftar ORDER BY id DESC");
 		$query = mysqli_fetch_assoc($query);

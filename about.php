@@ -8,7 +8,7 @@
 			<div class="col-md-8">
 				<div class="card-body">
 					<h5 class="card-title">Ikbal Lukmanul Hakim</h5>
-					<p class="card-text">160618 Informatika</p>
+					<p class="card-text">1606018 Informatika</p>
 					<p class="card-text"><small class="text-muted">Kelompok 5</small></p>
 				</div>
 			</div>
@@ -22,7 +22,7 @@
 			<div class="col-md-8">
 				<div class="card-body">
 					<h5 class="card-title">Ansor Ginanjar</h5>
-					<p class="card-text">160618 Informatika</p>
+					<p class="card-text">1606105 Informatika</p>
 					<p class="card-text"><small class="text-muted">Kelompok 5</small></p>
 				</div>
 			</div>
@@ -36,7 +36,7 @@
 			<div class="col-md-8">
 				<div class="card-body">
 					<h5 class="card-title">Sri S</h5>
-					<p class="card-text">160618 Informatika</p>
+					<p class="card-text">1606104 Informatika</p>
 					<p class="card-text"><small class="text-muted">Kelompok 5</small></p>
 				</div>
 			</div>
